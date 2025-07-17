@@ -26,7 +26,7 @@ def delete_non_proto_files(folder_path):
 
 def download_xray_api():
     xray_git = 'https://github.com/XTLS/Xray-core.git'
-    Repo.clone_from(xray_git, XRAY_API_PATH)
+    Repo.clone_from(xray_git, XRAY_API_PATH, branch='v1.8.24')
 
 
 download_xray_api()
